@@ -74,6 +74,7 @@ conda create --name rag python=3.13.1
 conda activate rag
 conda install pip
 pip install langchain langchain_ollama
+pip install pymongo
 pip install chromadb sentence-transformers langchain_huggingface langchain_chroma langchain PyPDF2 requests BeautifulSoup4
 pip install gradio
 ````
