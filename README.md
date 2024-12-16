@@ -9,7 +9,6 @@ Este repositorio contiene varias implementaciones de RAG (Generación Aumentada 
 - [Visión General](#visión-general)
 - [RAG en Inglés - Vector Store basado en Páginas Web](#rag-en-inglés---vector-store-basado-en-páginas-web)
 - [RAG en Castellano - Vector Store basado en PDF](#rag-en-castellano---vector-store-basado-en-pdf)
-- [Configuración](#configuración)
 - [Uso](#uso)
 - [Dependencias](#dependencias)
 
@@ -48,16 +47,6 @@ Esta implementación permite crear un vector store a partir de uno o varios arch
 1. Extraer el texto de los PDFs utilizando **PyPDF2**.
 2. Dividir el texto en fragmentos.
 3. Almacenar los datos extraídos en un **vector store Chroma** utilizando **HuggingFaceEmbeddings**.
-
-## Configuración
-
-### Requisitos
-
-Para comenzar con el proyecto, asegúrate de instalar las siguientes dependencias:
-
-```bash
-pip install gradio langchain chromadb requests beautifulsoup4 pypdf2 huggingface_hub
-````
 
 ## Uso
 
