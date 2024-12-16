@@ -37,6 +37,7 @@ Este RAG permite crear un vector store a partir del contenido de una página web
 1. Extraer el contenido de texto de una página web utilizando **BeautifulSoup**.
 2. Dividir el contenido en fragmentos más pequeños para la indexación.
 3. Almacenar los datos de texto en un **vector store Chroma** utilizando **HuggingFaceEmbeddings**.
+4. Crear GUI para interactuar con el, utilizando **Gradio**.
 
 ## RAG en Castellano - Vector Store basado en PDF
 
