@@ -68,12 +68,12 @@ sudo apt update
 sudo apt install build-essential
 ````
 
-Ahora instala las dependencias, puedes ejecutar el siguiente comando dentro de nuestro enviroment:
+Ahora instala las dependencias, puedes ejecutar los siguientes comandos dentro de nuestro enviroment:
 ```bash
 conda create --name rag python=3.13.1
 conda activate rag
 conda install pip
 pip install langchain langchain_ollama
-pip install chromadb sentence-transformers langchain_huggingface langchain_chroma
+pip install chromadb sentence-transformers langchain_huggingface langchain_chroma langchain PyPDF2 requests BeautifulSoup4
 pip install gradio
 ````
