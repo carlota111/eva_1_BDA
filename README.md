@@ -3,7 +3,23 @@
 Este repositorio contiene varias implementaciones de RAG (Generación Aumentada por Recuperación) que aprovechan diferentes fuentes de datos y métodos para crear un vector store y realizar consultas. El sistema está diseñado para extraer información de diferentes fuentes (páginas web, archivos PDF) y realizar búsquedas utilizando un modelo basado en Recuperación con capacidades Generativas.
 
 ---
+## Estructura proyecto
+```bash
+eva_1_BDA/
+├── .gradio/
+├── .vscode/                   
+├── MongoAtlas/
+|   ├── Castellano_RAG_Mongo.ipynb            
+│   └── Ingles_RAG_Mongo.ipynb                
+├── PDF/                    
+|   ├── PIMENTON_MAYO.pdf            
+│   └── recetas.pdf                         
+├── Castellano_RAG_Mongo.ipynb                              
+├── Ingles_RAG_Mongo.ipynb                
+└── README.md    
+````
 
+---
 ## Tabla de Contenidos
 
 - [Visión General](#visión-general)
